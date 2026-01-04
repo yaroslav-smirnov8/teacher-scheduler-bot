@@ -1,0 +1,17 @@
+# Testing dependencies
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-asyncio==0.21.1
+
+# Code coverage reporting
+coverage==7.3.2
+
+# Test data generation (optional)
+faker==20.1.0
+
+# Runtime dependencies required for imports in tests
+python-telegram-bot==13.15
+SQLAlchemy>=2.0.36,<3.0
+PyMySQL==1.1.0
+python-dotenv==1.0.0

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Database
+*.db
+*.sqlite
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts
+*.bat
+run_tests.bat
+run_specific_test.bat
+run_tests_quick.bat
+
+# Test files
+test_db.py
+001n.py
+
+# Portfolio materials
+portfolio/
+ARCHITECTURE.md
+README_001n.md
+README_TESTS.md
+SCREENCAST_TESTS_SCRIPT_EN.txt
