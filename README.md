@@ -82,6 +82,8 @@ DATABASE_URL=mysql+pymysql://username:password@localhost:3306/teacherdb?charset=
 python bot.py
 \\\
 
+This bot is designed to run within the Telegram ecosystem and requires a Telegram Bot token.
+
 ## Database Schema
 
 ### Teachers Table
