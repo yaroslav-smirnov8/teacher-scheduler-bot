@@ -1,43 +1,55 @@
-# Python
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db*
+*.sqlite
+*.sqlite3
+
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Virtual environment
 venv/
+.venv/
 env/
-*.egg-info/
+ENV/
+
+# Testing
 .pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.tox/
 .coverage
-
-# Database
-*.db
-*.sqlite
-
-# Environment
-.env
+coverage.xml
+htmlcov/
 
 # IDE
 .vscode/
 .idea/
-
-# Logs
-*.log
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Scripts
-*.bat
-run_tests.bat
-run_specific_test.bat
-run_tests_quick.bat
+# Logs
+*.log
 
-# Test files
-test_db.py
-001n.py
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
 
-# Portfolio materials
-portfolio/
-ARCHITECTURE.md
-README_001n.md
-README_TESTS.md
-SCREENCAST_TESTS_SCRIPT_EN.txt
+# Documentation (internal QA guide)
+QA_GUIDE.md
+
+
